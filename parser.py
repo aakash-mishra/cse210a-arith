@@ -3,6 +3,9 @@ from num import *
 from binop import *
 from enum import *
 
+INTEGER, PLUS, MUL, MOD, DIV, EOF = ('INTEGER', 'PLUS', 'MUL', 'MOD', 'DIV', 'EOF')
+
+
 class Parser(object):
     def __init__(self, lexer):
         # print("initializing parser.py")
