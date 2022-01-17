@@ -13,5 +13,6 @@ def main():
         # print(ast.op.type)
         result = interpreterObject.postorder(ast)
         print(result)
+
 if __name__ == '__main__':
     main()
