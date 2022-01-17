@@ -1,0 +1,4 @@
+INTEGER2 = 'INTEGER'
+
+# INTEGER, PLUS, MUL, MOD, DIV, EOF = (
+#         'INTEGER', 'PLUS', 'MUL', 'MOD', 'DIV', 'EOF')
