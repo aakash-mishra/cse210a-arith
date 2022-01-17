@@ -2,6 +2,8 @@ from binop import *
 from num import *
 from enum import *
 
+INTEGER, PLUS, MUL, MOD, DIV, EOF = ('INTEGER', 'PLUS', 'MUL', 'MOD', 'DIV', 'EOF')
+
 class Interpreter(object):
     
     def postorder(self, node):

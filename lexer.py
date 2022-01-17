@@ -1,6 +1,8 @@
 from token import *
 import enum
 
+INTEGER, PLUS, MUL, MOD, DIV, EOF = ('INTEGER', 'PLUS', 'MUL', 'MOD', 'DIV', 'EOF')
+
 class Lexer(object):
     def __init__(self, text):
         # print("initializing lexer.py")
@@ -48,7 +50,7 @@ class Lexer(object):
                 continue
 
             if self.current_char.isdigit():
-                return Token(INTEGER2, self.integer())
+                return Token(INTEGER, self.integer())
 
             if self.current_char == '+':
                 self.advance()
