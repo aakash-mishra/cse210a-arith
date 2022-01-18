@@ -79,15 +79,3 @@ load harness
 @test "easy-20" {
   check '1 * 1 * -1 * 1' '-1'
 }
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
